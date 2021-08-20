@@ -2,4 +2,8 @@
 
 upm install
 
-bundler exec jekyll s -s "docs" -H 0.0.0.0 --no-watch
+bundler exec jekyll s \
+--source "docs" \
+--baseurl "" \
+--host 0.0.0.0 \
+--no-watch
