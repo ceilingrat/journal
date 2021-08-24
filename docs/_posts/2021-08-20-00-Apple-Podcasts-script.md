@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: project Apple-Podcast asciicast
+tags: project Apple-Podcasts asciicast
 title: extract audio URLs from Apple Podcasts
 ---
 

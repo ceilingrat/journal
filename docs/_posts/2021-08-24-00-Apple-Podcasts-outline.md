@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apple Podcasts: starting outline"
-tags: project Apple-Podcast
+tags: project Apple-Podcasts
 categories: 
 ---
 
