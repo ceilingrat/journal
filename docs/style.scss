@@ -98,6 +98,23 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
+ul.task-list {
+  padding-left: 0;
+}
+
+ul.task-list ul.task-list {
+  padding: .4ex;
+  margin-left: 1em;
+}
+
+li.task-list-item {
+  list-style: none;
+}
+
+.task-list-item-checkbox {
+  margin-right: 1em;
+}
+
 em, i {
   font-style: italic;
 }
