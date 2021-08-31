@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# upm install -F
+if ! bundler check
+then
+  upm install -F
+fi
 
 bundler exec jekyll s \
 --source "docs" \
