@@ -1,5 +1,5 @@
 current directory: /home/runner/journal/.bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
-/usr/bin/ruby2.5 -r ./siteconf20210819-208-1r9to0t.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20210831-305-dady3j.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
@@ -13,4 +13,4 @@ linking shared-object unf_ext.so
 
 current directory: /home/runner/journal/.bundle/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20210819-208-1wrktvd
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20210831-305-17ligdn

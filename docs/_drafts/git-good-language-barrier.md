@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Good: Language Barrier
+title: "Git Good: Language Barrier"
 tags: project Git-Good
 categories: 
 ---
