@@ -109,4 +109,6 @@ Presently in the **development repo** I have two branches, `main` and `dev`.
 I will need to do a sort of *mitosis* to split between `dev` and `main`.  
 Development will happen in `dev`, but `main` will not contain anything related to GitHub Pages; just the resources that will be used by attendees & users.
 
-The sooner I can find a place to put the **public repo**, the better.
+Presently, I think I will use my **datastry** GitHub account as the destination of the "release" (the **public repo**).
+
+If it turns out that it would be better to use the Engineer Cafe's GitHub account, then it should be a simple matter to clone the repo from the **datastry** account.
