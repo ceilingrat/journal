@@ -18,3 +18,18 @@ The technical goals are:
 * transition from **Google Slides** to **Reveal.js**
 * develop workflow to **scrape text** from source materials (PDF) and **generate** slides using a **template**
 
+Communication goals:
+* a project development site to complement the journal entries
+* an end product that can be distributed 
+
+### Next Actions
+
+* [ ] establish a project tracker 
+    * [ ] root page with overview, links
+    * [ ] individual node pages as necessary
+* [ ] document processes
+    * [ ] current process with Google Sheets template
+    * [ ] past experiments with automation
+    * [ ] desired future process
+* [ ] document dev sessions (to journal)  
+*example: running tests with `pdftohtml`*
