@@ -10,4 +10,4 @@ bundler exec jekyll s \
 --baseurl "" \
 --host 0.0.0.0 \
 --no-watch \
-# --drafts
+--drafts
