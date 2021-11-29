@@ -9,5 +9,6 @@ bundler exec jekyll s \
 --source "docs" \
 --baseurl "" \
 --host 0.0.0.0 \
---no-watch \
 --drafts
+# --no-watch \
+# --drafts

@@ -14,7 +14,7 @@ NAME=$1
 cat > $DRAFTSDIR/$NAME.md <<End-of-File
 ---
 layout: post
-title: "$NAME"
+title: '$NAME'
 tags: 
 categories: 
 ---
