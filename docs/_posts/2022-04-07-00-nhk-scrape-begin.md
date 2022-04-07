@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'nhk-scrape-begin'
+title: 'NHK scrape project begins'
 tags: nhk scrape project
 categories: 
 ---
