@@ -10,3 +10,6 @@ key: "nhk"
 <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
 {% endfor %}</ul>
+
+XML/Atom feed available here:
+[{{ page.key }}.xml](../feed/{{ page.key }}.xml)
