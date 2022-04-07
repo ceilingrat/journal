@@ -1,6 +1,6 @@
 ---
 layout: default
-key: "nhk"
+key: nhk
 ---
 
 <h2>posts for <code>{{ page.key }}</code></h2>
