@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apple Podcasts: GitHub tasks"
-tags: project Apple-Podcast tasks github
+tags: project Apple-Podcasts tasks github
 categories: 
 ---
 
