@@ -46,3 +46,6 @@ sass:
 
 plugins:
   - jekyll-feed
+
+feed:
+  tags: true
