@@ -61,3 +61,9 @@ echo
 If `xmllint` is used to extract the URL, then a small amount of text manipulation will be needed to strip some extra unnecessary characters from the output.
 
 Alternatively, an XSLT stylesheet could be used for both the XPath query and the string formatting of the output, replacing the need for `xmllint`.
+
+## UPDATE
+
+I've some updates to the `crawl.sh` script:
+* search file no longer hard-coded, now takes file path as first argument of `crawl.sh`
+* XPath query is saved and suggested, but still can be changed at runtime
