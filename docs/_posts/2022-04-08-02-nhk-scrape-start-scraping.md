@@ -22,6 +22,8 @@ In my container, I'd like to create a directory called `news` to contain files t
 It took a little work, but I was able to accomplish what I wanted.
 
 ``` bash
+#!/bin/bash
+
 echo "paste a URL to request:"
 read -p ">  " URL
 
