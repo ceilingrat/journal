@@ -67,3 +67,20 @@ Alternatively, an XSLT stylesheet could be used for both the XPath query and the
 I've some updates to the `crawl.sh` script:
 * search file no longer hard-coded, now takes file path as first argument of `crawl.sh`
 * XPath query is saved and suggested, but still can be changed at runtime
+
+```bash
+#!/bin/bash
+
+#file=news/easy/k10013567751000/k10013567751000.html
+file=$1
+
+defaultXPQ="//a[contains(@id,'regular-news')]/@href"
+
+printf "Searching: %s\n" $file
+echo "Enter an XPath query:"
+echo "(use single quotes instead of double quotes)"
+read -p ">  " -e -i "$defaultXPQ" xpquery
+echo
+xmllint --html --xpath "$xpquery" $file 2>/dev/null
+echo
+```
