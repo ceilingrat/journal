@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'NHK scrape: let's start scraping'
+title: "NHK scrape: let's start scraping"
 tags: nhk scrape project
 categories: 
 ---
@@ -13,7 +13,6 @@ I began by looking at the URLs of the two samples from earlier.
 * https://www3.nhk.or.jp/news/html/20220406/k10013568931000.html
 
 They share a similar root path:
-
 ```
 https://www3.nhk.or.jp/news
 ```
@@ -35,7 +34,7 @@ As far as I can tell, `curl` always discards the local paths of files and only r
 
 Because I care about the relative paths, I had to accomplish that in Bash.
 
-Thankfully, `curl` still does some of the work if I give it a full path:  using the `--create-dirs` parameter, it will only create new directories in the filesystem when they don't exist.  And when `curl` finds the directories exist, it uses them.
+Thankfully, `curl` still does some of the work if I give it a path to where to store the file;  using the `--create-dirs` parameter, it will only create new directories in the filesystem when they don't exist.  And when `curl` finds the directories exist, it uses them.
 
 Now I can paste any URL for the news website and `curl` will fetch it and store it in my filesystem.
 
