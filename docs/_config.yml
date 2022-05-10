@@ -51,4 +51,5 @@ feed:
   tags:
     only: 
       - nhk
+      - teleprompter
     path: "feed/"
